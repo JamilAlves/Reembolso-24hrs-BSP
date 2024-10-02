@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reembolso 24hrs BSP</title>
+
+    <style>
+        ul{
+            list-style: none;
+        }
+        body{
+            background-color: #0e80dd;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color: #F6B024;
+        }
+        h2{
+            text-align: center;
+        }
+        #logo{
+            text-align: center;
+            box-shadow: 2px 2px 2px black;
+            
+        }
+        header{
+            width: 800px;
+            margin: auto;
+            padding: 2%;
+            background-color: #0d8cf4;
+            border-radius: 5%;
+            
+        }
+        main{
+            width: 1000px;
+            margin: auto;
+            padding: 2%;
+            background-color: #0d8cf4;
+            border-radius: 6%;
+        }
+        #conteudo01, #conteudo02, #conteudo03, #conteudo04, #conteudo05, #conteudo06, #conteudo07, #conteudo08, #conteudo09, #conteudo10, #conteudo11, #conteudo12, #conteudo13, #conteudo14, #conteudo15, #conteudo16, #conteudo17, #conteudo18, #conteudo19, #conteudo20, #conteudo21 , #conteudo22, #conteudo23{
+            display: none;
+        }
+
+        #button01{
+            position: relative;
+            left: -5%;
+            bottom: 26%;
+            background-color: #F6B024;
+        }
+        
+        #button02 {
+            position: relative;
+            left: -5%;
+            top: 27.5%;
+            background-color: #F6B024;
+        }
+
+        #button03 {
+            position: relative;
+            left: -5%;
+            top: 29.5%;
+            background-color: #F6B024;
+        }
+        
+        #button04 {
+            position: relative;
+            left: -5%;
+            top: 31.5%;
+            background-color: #F6B024;
+        }
+        
+        #button05 {
+            position: relative;
+            left: -5%;
+            top: 33.5%;
+            background-color: #F6B024;
+        }
+
+        #button06 {
+            position: relative;
+            left: -5%;
+            top: 35.5%;
+            background-color: #F6B024;
+        }
+
+       
+
+        #button07 {
+            position: relative;
+            left: -4%;
+            top: 51%;
+            background-color: #F6B024;
+        }
+
+        #button08 {
+            position: relative;
+            left: -4%;
+            top: 53%;
+            background-color: #F6B024;
+        }
+
+        #button09 {
+            position: relative;
+            left: -4%;
+            top: 55%;
+            background-color: #F6B024;
+        }
+
+        #button10 {
+            position: relative;
+            left: -4%;
+            top: 57%;
+            background-color: #F6B024;
+        }
+
+        #button11 {
+            position: relative;
+            left: -4%;
+            top: 59%;
+            background-color: #F6B024;
+        }
+
+        #button12 {
+            position: relative;
+            left: -4%;
+            top: 61%;
+            background-color: #F6B024;
+        }
+
+        #button13 {
+            position: relative;
+            left: -4%;
+            top: 63%;
+            background-color: #F6B024;
+        }
+
+        #button14 {
+            position: relative;
+            left: -4%;
+            top: 65%;
+            background-color: #F6B024;
+        }
+
+        #button15 {
+            position: relative;
+            left: -4%;
+            top: 67%;
+            background-color: #F6B024;
+        }
+
+        #button16 {
+            position: relative;
+            left: -4%;
+            top: 69%;
+            background-color: #F6B024;
+        }
+
+        #button17 {
+            position: relative;
+            left: -4%;
+            top: 71%;
+            background-color: #F6B024;
+        }
+
+        #button18 {
+            position: relative;
+            left: -4%;
+            top: 73%;
+            background-color: #F6B024;
+        }
+
+        #button19 {
+            position: relative;
+            left: -4%;
+            top: 75%;
+            background-color: #F6B024;
+        }
+
+        #button20 {
+            position: relative;
+            left: -4%;
+            top: 77%;
+            background-color: #F6B024;
+        }
+
+        #button21 {
+            position: relative;
+            left: -4%;
+            top: 79%;
+            background-color: #F6B024;
+        }
+
+        #button22 {
+            position: relative;
+            left:-4%;
+            top: 81%;
+            background-color: #F6B024;
+        }
+        #bot01{
+            
+            flex-direction: column;
+            max-width: 30px;
+            position: relative;
+            }
+
+            dl, dd{
+             background-color: rgb(5, 85, 146);
+             border-radius: 2%;
+             box-shadow: 2px 2px 2px black;
+             padding: 2%;
+             margin: 1%;
+            }
+
+            h3 {
+             border-radius: 2%;
+             text-decoration: underline;
+             width: 200px;
+             
+             
+            }
+
+            
+            img{
+                box-shadow: 2px 2px 2px black;
+            }
+
+            footer{
+                text-align: center;
+                font-size: x-small;
+            }
+            
+            
+
+           
+       
+    </style>
+
+<script src="script.js"></script>
+</head>
+<body>
+    <div id="logo">
+        <img src="conf logo/grupo branco.png" alt="">
+    </div>
+
+    <h1>Reembolso 24hrs BSP</h1>
+
+    <header>
+        <h2>Abrir pagina de reembolso</h2>
+
+
+        <ul>
+            <button id="button01" onclick="toggle ('conteudo01')">1</button>
+           <li>Clica em BSPLink
+            <dl id="conteudo01">
+                <dt><img src="Imagens BSP/InicioBSP.PNG" alt=""></dt>
+                <dd>Quando abrimmos o site do BPS, a primeira tela que termos é essa.
+                <br> Vamos iniciar clicando em "BPSLink"
+                </dd>
+            </dl>
+           </li>
+           
+           <button id="button02" onclick="toggle ('conteudo02')">2</button>
+
+           <li>Selicionar Group19
+            <dl id="conteudo02">
+                <dt><img src="Imagens BSP/Selecionar Grupo.PNG" alt=""></dt>
+                <dd>Agora escolheremos a unidade onde o reembolso é realizado. <br>
+                    Neste caso, Group19 - financeiro CGB. Após selecionar é so clicar e "Submit"
+                </dd>
+            </dl>
+           </li>
+
+           <button id="button03" onclick="toggle ('conteudo03')">3</button>
+
+           <li> Classic BSPLink
+            <dl id="conteudo03">
+                <dt><img src="Imagens BSP/bpsclassico.PNG" alt=""></dt>
+                <dd>Reembolso feito no modelo classico do BSP. <br>Na parte de cima do site iremos clicar na opção "Classic BSPlink"</dd>
+            </dl>
+           </li>
+
+           <button id="button04" onclick="toggle ('conteudo04')">4</button>
+
+           <li>Refund Applications
+            <dl id="conteudo04">
+                <dt><img src="Imagens BSP/Refund applocations.PNG" alt=""></dt>
+                <dd>Selecionaremos, a aplicação que iremos fazer. Que no caso é "Refund Applications". </dd>
+            </dl>
+           </li>
+
+           <button id="button05" onclick="toggle ('conteudo05')">5</button>
+
+           <li>RA Issue
+            <dl id="conteudo05">
+                <dt><img src="Imagens BSP/ra issue.PNG" alt=""></dt>
+                <dd>Selecione a opção "RA Issue".</dd>
+            </dl>
+           </li>
+
+           <button id="button06" onclick="toggle ('conteudo06')">6</button>
+
+           <li>Iata
+            <dl id="conteudo06">
+                <dt><img src="Imagens BSP/iata-emitido.PNG" alt=""></dt>
+                <dd>Abrir o bilhete no GDS e verificar em qual iata ele foi emitido.</dd>
+            </dl>
+           </li> 
+        </ul>
+        
+
+    </header>
+
+    <hr/>
+
+    <main>
+        <h2>Preenchimento do reembolso</h2>
+
+        <ul>
+
+            <button id="button07" onclick="toggle ('conteudo07')">7</button>
+            
+            <li> Tela do reembolso
+                <dl id="conteudo07">
+                    <dt><img src="Imagens BSP/Tela-do-reembolso.PNG" alt=""></dt>
+                    <dd>Tela do reembolso a ser preenchido.</dd>
+                </dl>
+            </li>
+
+            <button id="button08" onclick="toggle ('conteudo08')">8</button>
+
+            <li>Stat
+                <dl id="conteudo08">
+                    <dt><img src="Imagens BSP/stat-inter.PNG" alt=""></dt>
+                    <dd>Preencher sempre como internacional.</dd>
+                </dl>
+            </li>
+
+            <button id="button09" onclick="toggle ('conteudo09')">9</button>
+
+            <li>To
+                <dl id="conteudo09">
+                    <dt><img src="Imagens BSP/To.PNG" alt=""></dt>
+                    <dd>Inserir codigo da CIA. <br>
+                    No Amadeus, basta colocar "DNA(CIA)" para pegar o código da companhia.</dd>
+                </dl>
+            </li>
+
+            <button id="button10" onclick="toggle ('conteudo10')">10</button>
+
+            <li>Passenger Name
+                <dl id="conteudo10">
+                    <dt><img src="Imagens BSP/PassagerName.PNG" alt=""></dt>
+                    <dd>Inserir nome do pax a ser reembolsado.</dd>
+                </dl>
+            </li>
+
+            <button id="button11" onclick="toggle ('conteudo11')">11</button>
+
+            <li>Reason For Refund
+                <dl id="conteudo11">
+                    <dt><img src="Imagens BSP/Reason-f-refund.PNG" alt=""></dt>
+                    <dd>Inserir informação de reembolso 24hrs conforme está na imagem.</dd>
+                </dl>
+            </li>
+
+            <button id="button12" onclick="toggle ('conteudo12')">12</button>
+
+            <li>Bilhete conjugado
+                <dl id="conteudo12">
+                    <dt><img src="Imagens BSP/Bilhete-conjugado.PNG" alt=""></dt>
+                    <dd>Preencher a quantidade de cupons na reserva. <br>
+                    As vezes, quando temos muitos cupons, o BSP puxa um bilhete a mais.</dd>
+                </dl>
+            </li>
+
+            <div id="forma-de-pagamento">
+
+            
+
+            <button id="button13" onclick="toggle ('conteudo13')">13</button>
+
+            
+
+            <li>Form of Payment
+                <dl id="conteudo13">
+                    <dt><img src="Imagens BSP/form-of-payment.PNG" alt=""></dt>
+                    <dd>Tabela de forma de pagamento preenchida no caso de uma emissão no cartão.</dd>
+                </dl>
+            </li>
+
+            <button id="button14" onclick="toggle ('conteudo14')">14</button>
+
+            <li> Pagamento feito em "Cash"
+                <dl id="conteudo14">
+                    <dt><img src="Imagens BSP/Payment-cash.PNG" alt=""></dt>
+                    <dd>Caso o pagamento tenha sido em Cash, basta preencher o valor total pago na coluna "Cash Amount".</dd>
+                </dl>
+            </li>
+
+            <button id="button15" onclick="toggle ('conteudo15')">15</button>
+
+            <li> Pagmaneto Cartão + Cash
+                <dl id="conteudo15">
+                    <dt><img src="Imagens BSP/payment-cash-more-card.PNG" alt=""></dt>
+                    <dd>Em caso de cartão + cash, adicionar o valor pago no faturado em "Cash Amount" e o valor do cartão mas os dados na coluna das informações de cartão.</dd>
+                </dl>
+            </li>
+
+            <button id="button16" onclick="toggle ('conteudo16')">16</button>
+
+            <li> Pagamento em dois cartões
+                <dl id="conteudo16">
+                    <dt><img src="Imagens BSP/payment-two-cards.PNG" alt=""></dt>
+                    <dd>Neste caso, basta inserir o valor pago de cada cartão + a informação de cada um deles (bandeira e numero)</dd>
+                </dl>
+            </li>
+        </div>
+
+            <button id="button17" onclick="toggle ('conteudo17')">17</button>
+
+            <li>Gross Fare
+                <dl id="conteudo17">
+                    <dt><img src="Imagens BSP/Gross-Fare.PNG" alt=""></dt>
+                    <dd>Inserir valor da tarifa em reais.</dd>
+                </dl>
+            </li>
+
+            <button id="button18" onclick="toggle ('conteudo18')">18</button>
+
+            <li>Comissão
+                <dl id="conteudo18">
+                    <dt><img src="Imagens BSP/comission.PNG" alt=""></dt>
+                    <dd>Valor da comissão em reais.</dd>
+                </dl>
+            </li>
+
+            <button id="button19" onclick="toggle ('conteudo19')">19</button>
+
+            <li>Taxas
+                <dl id="conteudo19">
+                    <dt><img src="Imagens BSP/tax.PNG" alt=""></dt>
+                    <dd>Inserir valor da taxa e seu respectivo nome.</dd>
+                </dl>
+            </li>
+
+            <button id="button20" onclick="toggle ('conteudo20')">20</button>
+
+            <li>Forma de pagamento preenchida
+                <dl id="conteudo20">
+                    <dt><img src="Imagens BSP/full-preenchido.PNG" alt=""></dt>
+                    <dd></dd>
+                </dl>
+            </li>
+
+            <button id="button21" onclick="toggle ('conteudo21')">21</button>
+
+            <li>Reembolso solicitado. 
+                <dl id="conteudo21">
+                    <dt><img src="Imagens BSP/Reembolso-gerado.PNG" alt=""></dt>
+                </dl>
+            </li>
+
+            <button id="button22" onclick="toggle ('conteudo22')">22</button>
+
+            <li>Numero da solicitação do reembolso.
+                <dl id="conteudo22">
+                    <dt><img src="Imagens BSP/Numero RA.PNG" alt=""></dt>
+                </dl>
+            </li>
+
+        </ul>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Jamil Alves.</p>
+    </footer>
+
+
+    
+</body>
+</html>
